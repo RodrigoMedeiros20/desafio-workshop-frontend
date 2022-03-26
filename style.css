@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*cabeçalho da página*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+}
+
+.logo {
+    width: 230px;
+    height: 150px;
+}
+
+.menu {
+    padding: 30px;
+    cursor: pointer;
+}
+
+/*corpo da página*/
+
+.principal {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 100px;
+    background-color: black;
+}
+
+.titulo {
+    color: white;
+}
+
+.paragrafo {
+    color: white;
+    padding-top: 30px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    width: 700px;
+    height: 450px;
+    padding-top: 30px;
+}
+
+/*fomulário da página*/
+
+.formulario {
+    background: #fff;
+    padding: 30px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px;
+    max-width: 70vw;
+    position: relative;
+    text-align: center;
+}
+
+div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.formulario input {
+    display: flex;
+    height: 50px;
+    margin: 10px;
+    width: 400px;
+    padding: 10px;
+    background-color: #ededed;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.titulo-formulario {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#botao {
+    cursor: pointer;
+    background-color: #ededed;
+    margin-top: 40px;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+#botao:hover {
+    background-color: #d3d3d3;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook {
+    padding: 10px;
+}
+
+.facebook {
+    padding: 10px;
+}
+
+.instagram {
+    padding: 10px;
+}
